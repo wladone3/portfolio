@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Nova Store",
+    "technologies": ["WordPress", "WooCommerce"],
+    "backgroundImage": "https://picsum.photos/seed/nova-store/1600/900",
+    "description": [
+      {
+        "type": "text",
+        "content": "Nova Store is a fully custom online shop built for a growing fashion brand. We replaced a slow, template-based site with a lightweight theme and a streamlined checkout."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-1/800/500",
+        "alt": "Product catalog page"
+      },
+      {
+        "type": "text",
+        "content": "Payment gateways and a delivery-service API were integrated, so orders are confirmed and shipped without manual work. Page load time dropped from 5.2s to 1.4s."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-2/800/500",
+        "alt": "Checkout flow"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Pulse Dashboard",
+    "technologies": ["React", "TypeScript"],
+    "backgroundImage": "https://picsum.photos/seed/pulse-dashboard/1600/900",
+    "description": [
+      {
+        "type": "text",
+        "content": "Pulse is an analytics dashboard that turns raw sales data into clear, interactive charts. Users can filter by date, region, and product in real time."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/pulse-dashboard-1/800/500",
+        "alt": "Main analytics view"
+      },
+      {
+        "type": "text",
+        "content": "The UI is built from reusable components with strict typing, which made adding new widgets fast and safe."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Lumen Studio",
+    "technologies": ["WordPress", "Elementor"],
+    "backgroundImage": "https://picsum.photos/seed/lumen-studio/1600/900",
+    "description": [
+      {
+        "type": "text",
+        "content": "A portfolio website for a photography studio. The client needed to edit pages on their own, so we combined a custom theme with a tailored Elementor setup."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/lumen-studio-1/800/500",
+        "alt": "Gallery grid"
+      },
+      {
+        "type": "text",
+        "content": "Images are lazy-loaded and served in modern formats, keeping the gallery smooth even on mobile connections."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/lumen-studio-2/800/500",
+        "alt": "Contact and booking page"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "QuickBite Delivery",
+    "technologies": ["JavaScript", "Node.js"],
+    "backgroundImage": "https://picsum.photos/seed/quickbite-delivery/1600/900",
+    "description": [
+      {
+        "type": "text",
+        "content": "QuickBite is a food delivery platform connecting local restaurants with couriers. Customers track their order live on a map from kitchen to doorstep."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/quickbite-1/800/500",
+        "alt": "Live order tracking map"
+      },
+      {
+        "type": "text",
+        "content": "A simple REST API handles orders, courier assignment, and status updates, with webhooks notifying restaurants instantly."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "SecureWP Toolkit",
+    "technologies": ["PHP", "WordPress"],
+    "backgroundImage": "https://picsum.photos/seed/securewp-toolkit/1600/900",
+    "description": [
+      {
+        "type": "text",
+        "content": "SecureWP is a custom plugin that hardens WordPress sites: login protection, file integrity checks, and automatic blocking of suspicious requests."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/securewp-1/800/500",
+        "alt": "Security settings screen"
+      },
+      {
+        "type": "text",
+        "content": "Built with clean hooks and filters, it is easy to extend and does not slow down the front end. Admins get a weekly report by email."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/securewp-2/800/500",
+        "alt": "Weekly security report"
+      }
+    ]
+  }
+]

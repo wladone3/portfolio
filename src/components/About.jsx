@@ -1,0 +1,57 @@
+
+function About() {
+    const terms = [
+        'WordPress', 'PHP', 'JavaScript', 'HTML5', 'React', 'CSS3', 'jQuery', 'Custom Themes', 'Plugin Development',
+        'UI Implementation', 'GSAP',  'Interactive Interfaces', 'Pixel-Perfect Development', 'Responsive Web Design',
+        'Elementor',  'WooCommerce', 'ACF', 'WordPress Optimization', 'Polylang'
+    ]
+
+    return (
+        <section id="about" className="h-svh grid grid-rows-[1fr_2.5fr_1fr] relative">
+            <div className="relative">
+                <div className="line-bottom"></div>
+            </div>
+            <div className="grid grid-cols-12">
+                <div className="flex flex-col col-span-7 w-full h-full  relative justify-center">
+                    <div className="title pl-[5vw] -mt-16.25">The Developer</div>
+                    <div className="text-[13px] max-w-90 pt-5 ml-[calc(5vw+75px)]">
+                        I'm a web developer based in Ukraine. My journey started with building websites, and over time, I became interested in more than just making things work — I wanted to understand how every piece fits together, from the first design idea to the final product. That curiosity led me deeper into development, where I found a balance between technical problem-solving and creative work.
+                    </div>
+                    <div className="line-about"></div>
+                </div>
+
+                <div className="flex flex-col justify-center items-center col-span-5 w-full h-full ">
+                    <div className="relative flex items-center flex-col">
+                        <div className="w-[390px] h-50 bg-amber-950"></div>
+                        
+                        <div className="w-15 h-15 rounded-4xl bg-white flex justify-center items-center mt-7">
+                            <svg className="-mr-1.25" width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink">
+                                <rect width="23" height="23" fill="url(#pattern0_56_189)"/>
+                                <defs>
+                                    <pattern id="pattern0_56_189" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                        <use xlinkHref="#image0_56_189" transform="scale(0.00195312)"/>
+                                    </pattern>
+                                    <image id="image0_56_189" width="512" height="512" preserveAspectRatio="none" xlinkHref="data:image/png;base64,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"/>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div className="relative">
+                <div className="line-top"></div>
+                <ul className="flex gap-2 mt-8.75">
+                    {terms.map((term, index) => (
+                        <li key={index} className="bg-white rounded-[10px] text-[12px] py-0.5 px-2.5">{term}</li>
+                    ))}
+                </ul>
+            </div>
+        </section>
+    )
+}
+
+
+
+
+export default About

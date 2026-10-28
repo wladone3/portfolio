@@ -1,0 +1,26 @@
+.project-link {
+  position: relative;
+  display: inline-block;
+
+  &:after, &:before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: #F0F0EF;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  &:after {
+    right: 120%;
+  }
+
+  &:before {
+    left: 120%;
+  }
+}
+
+.popup {
+
+}

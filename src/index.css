@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+body {
+    font-family: "Intel One Mono", monospace;
+    font-optical-sizing: auto;
+    letter-spacing: -4%;
+    color: #282828;
+    background: #F0F0EF;
+    font-width: normal;
+    position: relative;
+}
+
+@theme {
+    --color-border-brand: #A9A9A9;
+    --color-brand: #A9A9A9;
+    --color-code: #A6A6A6;
+    --color-solution: #D9D9D9;
+    --color-touch: #ABABAA;
+    --color-project: #282828;
+    --color-tpoject: #D0D0D0;
+}
+
+.title {
+    @apply font-bold text-[42px];
+}
+
+.title._normal {
+    font-weight: normal;
+}
+
+.title::before {
+    content: "./ ";
+}
+
+.sub-title {
+    @apply text-[24px] inline-block;
+    color: rgba(86, 86, 86, 0.45);
+    margin-left: 20px;
+}
+
+.flex-center {
+    @apply flex items-center justify-center;
+}
+
+.line-right {
+    @apply absolute h-full w-px bg-brand top-0 right-0;
+}
+
+.line-top {
+    @apply absolute w-full h-px bg-brand top-0;
+}
+
+.line-bottom {
+    @apply absolute w-full h-px bg-brand bottom-0;
+}
+
+.line-about {
+    @apply absolute right-0 top-1/2 -translate-y-1/2 h-screen w-px bg-brand
+}
+
+.drag-none {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}

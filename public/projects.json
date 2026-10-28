@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "logo": "https://cdn.simpleicons.org/dribbble",
+    "backgroundColor": "#E8E2D8",
+    "title": "Project One",
+    "description": [
+      {
+        "type": "text",
+        "content": "Nova Store is a fully custom online shop built for a growing fashion brand. We replaced a slow, template-based site with a lightweight theme and a streamlined checkout."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-1/800/500",
+        "alt": "Product catalog page"
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/quickbite-1/800/500",
+        "alt": "Live order tracking map"
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/lumen-studio-2/800/500",
+        "alt": "Contact and booking page"
+      },
+      {
+        "type": "text",
+        "content": "Payment gateways and a delivery-service API were integrated, so orders are confirmed and shipped without manual work. Page load time dropped from 5.2s to 1.4s."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-2/800/500",
+        "alt": "Checkout flow"
+      }
+    ],
+    "link": "https://example.com/project-one"
+  },
+  {
+    "id": 2,
+    "logo": "https://cdn.simpleicons.org/notion",
+    "backgroundColor": "#D7E7E1",
+    "title": "Project Two",
+    "description": [
+      {
+        "type": "text",
+        "content": "Nova Store is a fully custom online shop built for a growing fashion brand. We replaced a slow, template-based site with a lightweight theme and a streamlined checkout."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-1/800/500",
+        "alt": "Product catalog page"
+      },
+      {
+        "type": "text",
+        "content": "Payment gateways and a delivery-service API were integrated, so orders are confirmed and shipped without manual work. Page load time dropped from 5.2s to 1.4s."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-2/800/500",
+        "alt": "Checkout flow"
+      }
+    ],
+    "link": "https://example.com/project-two"
+  },
+  {
+    "id": 3,
+    "logo": "https://cdn.simpleicons.org/behance",
+    "backgroundColor": "#DCE3F5",
+    "title": "Project Three",
+    "description": [
+      {
+        "type": "text",
+        "content": "Nova Store is a fully custom online shop built for a growing fashion brand. We replaced a slow, template-based site with a lightweight theme and a streamlined checkout."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-1/800/500",
+        "alt": "Product catalog page"
+      },
+      {
+        "type": "text",
+        "content": "Payment gateways and a delivery-service API were integrated, so orders are confirmed and shipped without manual work. Page load time dropped from 5.2s to 1.4s."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-2/800/500",
+        "alt": "Checkout flow"
+      }
+    ],
+    "link": "https://example.com/project-three"
+  },
+  {
+    "id": 4,
+    "logo": "https://cdn.simpleicons.org/shopify",
+    "backgroundColor": "#F0D8D2",
+    "title": "Project Four",
+    "description": [
+      {
+        "type": "text",
+        "content": "Nova Store is a fully custom online shop built for a growing fashion brand. We replaced a slow, template-based site with a lightweight theme and a streamlined checkout."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-1/800/500",
+        "alt": "Product catalog page"
+      },
+      {
+        "type": "text",
+        "content": "Payment gateways and a delivery-service API were integrated, so orders are confirmed and shipped without manual work. Page load time dropped from 5.2s to 1.4s."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-2/800/500",
+        "alt": "Checkout flow"
+      }
+    ],
+    "link": "https://example.com/project-four"
+  },
+  {
+    "id": 5,
+    "logo": "https://cdn.simpleicons.org/figma",
+    "backgroundColor": "#E6E0F2",
+    "title": "Project Five",
+    "description": [
+      {
+        "type": "text",
+        "content": "Nova Store is a fully custom online shop built for a growing fashion brand. We replaced a slow, template-based site with a lightweight theme and a streamlined checkout."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-1/800/500",
+        "alt": "Product catalog page"
+      },
+      {
+        "type": "text",
+        "content": "Payment gateways and a delivery-service API were integrated, so orders are confirmed and shipped without manual work. Page load time dropped from 5.2s to 1.4s."
+      },
+      {
+        "type": "image",
+        "src": "https://picsum.photos/seed/nova-store-2/800/500",
+        "alt": "Checkout flow"
+      }
+    ],
+    "link": "https://example.com/project-five"
+  }
+]
